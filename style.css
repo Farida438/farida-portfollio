@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://preview.colorlib.com/theme/transcend/images/hero-bg.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    color: white;
+    position: relative;
+    background-color: rgba(0,0,0, 0.9);
+    overflow: hidden;
+   
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+.nav{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 26px 54px;
+}
+
+.firstlink{
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    display: flex;
+    gap: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    padding-right: 1000px;
+}
+
+.menuu{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menuu:hover .text{
+    color: #CC147F;
+    transition: color 0.35s ease;
+}
+
+.onof{
+    padding-right: 38px;
+    cursor: pointer;
+}
+.image{
+    width: 38px;
+    height: 38px;
+}
+
+.hamburger{
+    height: 100%;
+    width: 250px;
+    background-color: #111111;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 30px;
+    z-index: 999;
+    transform: translateX(100%);
+}
+
+.hamburger.active{
+    transform: translateX(0);
+    transition: transform 1s ease;
+}
+
+.hamburger.closing{
+    transform:translateX(100%);
+    transition: transform 1s ease;
+}
+
+.text{
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.transcend{
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:#CC147F ;
+}
+.textinham{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    padding:50px 10px;
+}
+.item{
+    display: flex;
+    padding: 15px 8px;
+    gap: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+
+hr{
+   height: 0.5px;
+   opacity: 0.2;
+}
+
+.num{
+    font-size: 12px;
+    color: white;
+    opacity:0.3;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+.itemtext{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.section-light{
+    background-color: rgba(0,0,0, 0);
+}
+.itemtext-light{
+    color: black;
+}
+.item-light{
+    color: black;
+    opacity: 1;
+}
+
+.svgIs{
+    color: black;background-color: black;
+    border: 1px solid black;
+    fill: black;
+}
+
+.hamburger-light{
+    background-color: #EDEDE9; 
+}
+
+.informationsSpan-light{
+    color: rgba(0 , 0 , 0 , 1);
+    opacity: 1;
+}
+
+.information-light{
+    color: black;
+}
+
+.item:hover .num{
+    color:#CC147F;
+    transition: color 0.3s ease;
+}
+
+.closed{
+    cursor: pointer;
+}
+
+.information{
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+   
+}
+
+.informationsSpan{
+    opacity: 0.2;
+    /* color: white; */
+}
+.volup{
+    /* color: white; */
+    opacity: 0.5;
+
+   
+}
+
+.volup:hover{
+    opacity: 1;
+    transition:  opacity 0.3s ease;
+}
+
+.icons{
+    display: flex;
+    padding: 15px 0;
+    gap: 12px;
+}
+.icon svg{
+    opacity:0.4;
+}
+
+.icon svg:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.hr{
+    width: 83px;
+    height: 2px;
+    border: 1px solid #CC147F;
+    background-color: #CC147F;
+    opacity: 1;
+}
+
+.big{
+    font-family: "Gelasio", serif;
+    font-size: 90px;
+    font-weight: 700;
+  
+
+}
+
+.smtext{
+    font-family: "Inter", sans-serif;
+    opacity: 0.7;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 49px;
+    font-weight: 200;
+}
+.small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    width: 240px;
+    height: 80px;
+    padding: 20px 25px;
+    background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.7s ease;
+}
+
+.btn:hover{
+    background-color:rgba(0 , 0 , 0 , 0.8)
+}
+.opas{
+    color: #fff;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding-top:  100px ;
+    padding-bottom: 100px;
+    padding-left: 150px; 
+    align-items: center;
+}
+.maintext{
+    padding-right: 265px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 800px;
+}
+.text{
+    letter-spacing: 4px;
+}
+
+
+.butons{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+li::marker{
+    color: #CC147F;
+}
+
+
+.one{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.lii{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
+}
+
+
+
+.foot{
+    width: 500px;
+    height: 60px;
+    padding: 10px 50px;
+}
+.follow{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 650;
+    font-size: 16px;
+}
+
+.foot hr{
+    width: 35px;
+    height: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fitem{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight:300;
+    text-decoration: none;
+    position: relative;
+}
+
+.fitem::after{
+    content:"";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    transition: all  0.3s ease;
+    bottom: -10px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fitem:hover::after{
+    opacity: 1;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.light{
+    color:black;
+    background-color:rgba(255,255,255,0.5)
+}
+
+.back-light{
+    background-color: rgba(0,0,0, 0);
+}
+
+
+.preloader{
+    background-color:#676D89 ;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:978/0*D1icAJvr19HzVBd6.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
